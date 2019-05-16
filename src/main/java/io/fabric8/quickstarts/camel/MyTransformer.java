@@ -30,7 +30,7 @@ public class MyTransformer {
         for (int i = 0; i < 3; i++) {
             int number = (int) (Math.round(Math.random() * 1000) % 10);
             char letter = (char) ('0' + number);
-            buffer.append(letter);
+            buffer.append("TEST: " + letter);
         }
         return buffer.toString();
     }
